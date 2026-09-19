@@ -42,7 +42,7 @@ rows:
         attributes: { width: Regular }
 
   - bottom:
-      - $alpha
+      - $alphabet
       - [0, " "]
       - $gap
       - $space
