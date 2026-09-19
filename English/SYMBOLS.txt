@@ -22,7 +22,7 @@ rows:
       - ["/", g]
       - [":", h]
       - [";", j]
-      - ["’", k]
+      - ["'", k]
       - ["\"", l]
       - type: delete
         attributes: { width: Regular }
