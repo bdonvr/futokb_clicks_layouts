@@ -2,7 +2,7 @@ name: Clicks EN_US QWERTY
 attributes: { moreKeyMode: OnlyExplicit }
 
 layoutSetOverrides:
-  symbols: "custom0"  # the layout from "SYMBOLS.txt", if you added that first per instructions it will be "custom0", if not check the number in the list of custom layouts.
+  symbols: "custom1"  # the layout from "SYMBOLS.txt", you need to add that one after this one. The keyboard will crash when you hit the symbol key otherwise. You may need to change this to "custom2", "custom3", e.g. if you have other custom layouts.
 
 rows:
   - letters:
