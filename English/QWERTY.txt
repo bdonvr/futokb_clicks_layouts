@@ -1,4 +1,4 @@
-name: Clicks EN_US QWERTY
+name: Clicks English QWERTY
 attributes: { moreKeyMode: OnlyExplicit }
 
 layoutSetOverrides:

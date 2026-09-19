@@ -39,7 +39,7 @@ How to enable:
 6. Tap "Create a new layout"
 7. Set the "Language" to whatever language you're using so that autocorrect and such work, if desired.
 8. Clear out the default example code.
-9. Paste the desired layout from the text file found in the folders in this repository (for example, standard US QWERTY is in [EN_US/QWERTY.txt](https://github.com/bdonvr/futokb_clicks_layouts/blob/main/EN_US/QWERTY.txt). You can test it, but it will crash if you hit the symbols button until you complete step 10.
+9. Paste the desired layout from the text file found in the folders in this repository (for example, English QWERTY is in [English/QWERTY.txt](https://github.com/bdonvr/futokb_clicks_layouts/blob/main/English/QWERTY.txt). You can test it, but it will crash if you hit the symbols button until you complete step 10.
 10. Save, then repeat steps 6 through 9, but instead pasting the SYMBOLS.txt file from the same folder that you got your layout from.
 11. Go back to the main settings menu and select "Keyboard and Typing", then "Long-Press Keys & Spacebar"
 12. Enable "Show Hints"

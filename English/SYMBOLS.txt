@@ -1,4 +1,4 @@
-name: Clicks EN_US Symbols
+name: Clicks English Symbols
 attributes: { moreKeyMode: OnlyExplicit }
 
 rows:
