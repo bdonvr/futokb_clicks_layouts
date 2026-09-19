@@ -26,6 +26,7 @@ CAVEATS:
 1. Ctrl, alt, search, and Clicks keys don't exist/work
 2. FUTO, AFAIK does not support making the shift and symbol keys something that only works when held. It functions like the typical sticky software key. But you can still hold it down and as long as you type one symbol/letter, it will return to the main layout when you let go. So for maximum realism you need to make sure to hold it and to type something whenever you do.
 3. You can long press a key for symbols, but from what I know this won't work on Clicks. I set them up that way just to have them both shown like on the real keyboard. You're meant to hold down the symbol key.
+4. The 0 key is paired with CTRL on the real Communicator, which is not something FUBO supports. Here it is a space character paired with 0. I tried to make the key do nothing but it does not seem to be possible.
 ---
 
 How to enable:
