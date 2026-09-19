@@ -47,7 +47,6 @@ rows:
       - $gap
       - $space
       - $gap
-      - $contextual
       - type: base
         spec: "!icon/action_emoji|!code/action_emoji"
       - $gap
