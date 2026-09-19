@@ -33,15 +33,18 @@ How to enable:
 
 1. [Download and enable the FUTO Keyboard](https://keyboard.futo.tech/#download) (Available on Google Play, their F-Droid Repo, or as an .apk right from GitHub)
 2. Open the "FUTO Keyboard" app.
-3. Scroll down and click on "Help & Feedback"
-4. Tap the line that says "Version Code: #####" 10 times until it says you're a developer
-5. Back out and go into developer settings and select "Custom Layouts"
-6. Tap "Create a new layout"
-7. Set the "Language" to whatever language you're using so that autocorrect and such work, if desired.
-8. Clear out the default example code.
-9. Paste the desired layout from the text file found in the folders in this repository (for example, English QWERTY is in [English/QWERTY.txt](https://github.com/bdonvr/futokb_clicks_layouts/blob/main/English/QWERTY.txt). You can test it, but it will crash if you hit the symbols button until you complete step 10.
-10. Save, then repeat steps 6 through 9, but instead pasting the SYMBOLS.txt file from the same folder that you got your layout from.
-11. Go back to the main settings menu and select "Keyboard and Typing", then "Long-Press Keys & Spacebar"
-12. Enable "Show Hints"
+3. Select "Keyboard and Typing", then "Long-Press Keys & Spacebar"
+4. Enable "Show Hints"
+5. Go back to the main settings menu, scroll down and click on "Help & Feedback"
+6. Tap the line that says "Version Code: #####" 10 times until it says you're a developer
+7. Back out and go into developer settings and select "Custom Layouts"
+8. Tap "Create a new layout"
+9. Set the "Language" to whatever language you're using so that autocorrect and such work, if desired.
+10. Clear out the default example code.
+11. Paste the desired layout from the text file found in the folders in this repository (for example, English QWERTY is in [English/QWERTY.txt](https://github.com/bdonvr/futokb_clicks_layouts/blob/main/English/QWERTY.txt). You can test it, but it will crash if you hit the symbols button until you complete step 10.
+12. Save, then repeat steps 8 through 11, but instead pasting the SYMBOLS.txt file from the same folder that you got your layout from.
+13. Go back to the main menu and Select "Languages and Models"
+14. Delete all keyboard layouts other than the two "Clicks" ones.
+
 
 NOTE: If you follow these instructions your chosen layout should be "Custom Layout 0" and the symbols should be "Custom Layout 1". If you for some reason have other custom layouts you may need to edit the line that says "symbols: "custom1"" in the layout to point to the correct symbols layout. The keyboard will crash if you hit the symbol key and the referenced layout does not exist. (for example after you added the main layout but before you add the symbols layout.
