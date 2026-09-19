@@ -1,0 +1,56 @@
+name: Clicks EN_US QWERTY
+attributes: { moreKeyMode: OnlyExplicit }
+
+layoutSetOverrides:
+  symbols: "custom2"  # the "Clicks Symbols" layout, it can be custom3, custom1, etc depending on the order of adding
+
+rows:
+  - letters:
+      - [q,"#"]
+      - [w,1]
+      - [e,2]
+      - [r,3]
+      - [t,"("]
+      - [y,")"]
+      - [u,"_"]
+      - [i,"-"]
+      - [o,"+"]
+      - [p,"@"]
+
+  - letters:
+      - [a,"*"]
+      - [s,4]
+      - [d,5]
+      - [f,6]
+      - [g,"/"]
+      - [h,":"]
+      - [j,";"]
+      - [k,"’"]
+      - [l,"\""]
+      - type: delete
+        attributes: { width: Regular}
+
+  - letters:
+      - type: shift
+        attributes: { width: Regular}
+      - [z,7]
+      - [x,8]
+      - [c,9]
+      - [v,"%"]
+      - [b,"?"]
+      - [n,"!"]
+      - [m, ","]
+      - [".","$"]
+      - type: enter
+        attributes: { width: Regular}
+
+  - bottom:
+      - $symbols
+      - [" ",0]
+      - $gap
+      - $space
+      - $gap
+      - $contextual
+      - type: base
+        spec: "!icon/action_emoji|!code/action_emoji"
+      - $gap

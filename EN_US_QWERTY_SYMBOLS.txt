@@ -1,0 +1,53 @@
+name: Clicks EN_US Symbols
+attributes: { moreKeyMode: OnlyExplicit }
+
+rows:
+  - letters:
+      - ["#", q]
+      - [1, w]
+      - [2, e]
+      - [3, r]
+      - ["(", t]
+      - [")", y]
+      - ["_", u]
+      - ["-", i]
+      - ["+", o]
+      - ["@", p]
+
+  - letters:
+      - ["*", a]
+      - [4, s]
+      - [5, d]
+      - [6, f]
+      - ["/", g]
+      - [":", h]
+      - [";", j]
+      - ["’", k]
+      - ["\"", l]
+      - type: delete
+        attributes: { width: Regular }
+
+  - letters:
+      - type: shift
+        attributes: { width: Regular }
+      - [7, z]
+      - [8, x]
+      - [9, c]
+      - ["%", v]
+      - ["?", b]
+      - ["!", n]
+      - [",", m]
+      - ["$", "."]
+      - type: enter
+        attributes: { width: Regular }
+
+  - bottom:
+      - $alpha
+      - [0, " "]
+      - $gap
+      - $space
+      - $gap
+      - $contextual
+      - type: base
+        spec: "!icon/action_emoji|!code/action_emoji"
+      - $gap
