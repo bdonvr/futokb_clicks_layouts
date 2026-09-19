@@ -2,7 +2,7 @@ name: Clicks EN_US QWERTY
 attributes: { moreKeyMode: OnlyExplicit }
 
 layoutSetOverrides:
-  symbols: "custom2"  # the "Clicks Symbols" layout, it can be custom3, custom1, etc depending on the order of adding
+  symbols: "custom0"  # the layout from "SYMBOLS.txt", if you added that first per instructions it will be "custom0", if not check the number in the list of custom layouts.
 
 rows:
   - letters:
